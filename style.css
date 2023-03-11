@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: '1.6rem';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    
+}
+
+main{
+    
+    max-width: 82rem;
+    max-height: 33rem;
+    display: flex;   
+    gap: 14rem;
+}
+
+#timer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#controls{
+    display: flex;
+    gap: 3rem;
+    justify-content:space-around;
+}
+
+#controls svg:hover path {
+    fill: #02799D;
+  }
+
+  #controls svg path {
+    fill: black;
+  }
+
+
+
+button{
+   background:none;
+   border: none;
+
+
+}
+
+.container-timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container-figures{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 32rem;
+    height: 33rem;
+    align-items: center;
+}
+
+
+.container-figures img{
+    background-color: #E1E1E6;
+    border-radius: 5px;
+    padding-top: 10px;
+    border: none;
+    padding: 4rem;
+    border-radius: 2.4rem;
+
+}
+
+.hide{
+    display: none;
+}
+
+.mode{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 3rem;
+    right: 6rem;
+}
+
+
+
+.card:hover {
+    background-color:#02799D ;
+}
+
+#icoforest:hover{
+    color: white;
+}
+
+.container-figures :hover path{
+    fill: white;
+}
+
+.card{
+    background-color: #E1E1E6;
+    border-radius: .4rem;
+    margin: 1rem 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    padding: 1rem 4rem;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    transform: scale(0.7);
+}
+
+.brando{
+    fill: white;
+}
+
+
+
+
+
+
+
+
+
+
